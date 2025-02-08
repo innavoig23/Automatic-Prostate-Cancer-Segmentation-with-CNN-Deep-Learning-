@@ -1,6 +1,6 @@
 # Automatic Prostate Cancer Segmentation in Multi-Modal MRI Images using CNN (Deep Learning)
 
-This repository contains the code developed for the **Medical Image Processing** course project @polito, focused on segmenting prostate tumors in multi-modal MRI images.
+This repository contains the code developed for the [**Medical Image Processing**](https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01VSOMV&p_a_acc=2026&p_header=S&p_lang=&multi=N) course project at Politecnico di Torino, focused on segmenting prostate camcer in multi-modal MRI images.
 
 ## Dataset
 
