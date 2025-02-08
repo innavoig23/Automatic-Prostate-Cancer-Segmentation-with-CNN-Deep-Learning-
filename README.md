@@ -40,9 +40,9 @@ During the preliminary phase of the project, various approaches were tested, suc
 
 The pre-processing and post-processing pipelines are illustrated below:
 ### Pre-Processing Pipeline
-![Pre-Processing Pipeline](Pipelines/pre_processing.svg)
+![Pre-Processing Pipeline](Pipelines/pipelinePreprocessing.svg)
 
 ### Post-Processing Pipeline
-![Post-Processing Pipeline](Pipelines/post_processing.svg)
+![Post-Processing Pipeline](Pipelines/pipelinePostprocessing.svg)
 
 The project report is available. However, since the course was taught in Italian, the report is also in Italian.
