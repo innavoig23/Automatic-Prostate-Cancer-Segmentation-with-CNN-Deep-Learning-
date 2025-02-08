@@ -26,7 +26,7 @@ The dataset includes three MRI modalities:
 - **HBV** (High b-value)
 - **T2w** (T2-weighted)
 
-The implemented pipeline used an **RGB composite image** created by stacking the three modalities into three channels: **ADC, HBV, and T2w**.
+The implemented pipeline used an **RGB image** created by stacking the three modalities into three channels: **ADC, HBV, and T2w**.
 
 ## Code
 
