@@ -1,1 +1,1 @@
-# Automatic-Prostate-Cancer-Segmentation-with-Deep-Learning
+# Automatic Prostate Cancer Segmentation with CNN (Deep Learning)
