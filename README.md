@@ -4,10 +4,9 @@ This repository contains the code developed for the **Medical Image Processing**
 
 ## Dataset
 
-The dataset used comes from a scientific challenge.
-The dataset used comes from a scientific challenge: [DOI: 10.1016/S1470-2045(24)00220-1](https://doi.org/10.1016/S1470-2045(24)00220-1).
+The dataset used comes from a [scientific challenge](https://doi.org/10.1016/S1470-2045(24)00220-1).
+The structure used in this project is as follows:
 
-### Dataset Structure
 ProstateMRI/
 │── ann_dir/        # Directory containing annotations
 │   ├── train/      # Training set annotations
