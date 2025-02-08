@@ -6,7 +6,7 @@ This repository contains the code developed for the **Medical Image Processing**
 
 The dataset used comes from a [scientific challenge](https://doi.org/10.1016/S1470-2045(24)00220-1).
 The structure used in this project is as follows:
-
+```bash
 ProstateMRI/
 │── ann_dir/        # Directory containing annotations
 │   ├── train/      # Training set annotations
@@ -17,7 +17,7 @@ ProstateMRI/
 │   ├── train/      # Training set images
 │   ├── val/        # Validation set images
 │   ├── test/       # Test set images
-
+```
 Annotations are **8-bit PNG images**, where pixel values represent non-tumoral tissue when 0, while tumoral when 1.
 
 The dataset includes three MRI modalities:
@@ -30,19 +30,9 @@ The implemented pipeline used an **RGB composite image** created by stacking the
 
 ## Code
 
-The segmentation task was implemented using **MMSegmentation**, an OpenMMLab toolbox for semantic segmentation:
-
-```bibtex
-@misc{mmseg2020,
-    title={{MMSegmentation}: OpenMMLab Semantic Segmentation Toolbox and Benchmark},
-    author={MMSegmentation Contributors},
-    howpublished = {\url{https://github.com/open-mmlab/mmsegmentation}},
-    year={2020}
-}
-```
+The segmentation task was implemented using [**MMSegmentation**](https://github.com/open-mmlab/mmsegmentation), an OpenMMLab toolbox for semantic segmentation.
 
 The model was trained and tested on Google Colab. They can be performed using `training.ipynb` and `test.ipynb`.
 Additional scripts used for the final pipeline are also uploaded.
-
 
 During the preliminary phase of the project, various approaches were tested, such as different network architecture, alternative pre-processing, or post-processing techniques. These additional scripts are not included in the repository. However, if you have to carry out similar tasks and need assistance, feel free to contact me.
